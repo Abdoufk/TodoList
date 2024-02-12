@@ -1,0 +1,39 @@
+body{
+    color: white;
+    background-color: #333;
+}
+
+input ,.add, td ,.item{
+    padding: 5px;
+}
+
+table td{
+    cursor: pointer;
+    border:1px solid;
+}
+
+.active{
+    color: black;
+    background-color: #eee;
+    border: 1px solid white;
+}
+
+.task{
+    width: 500px;
+    padding:5px 0;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    position: relative;
+}
+
+.item button{
+    position: absolute;
+    right: 5px;
+}
+
+
+
